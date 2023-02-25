@@ -1,0 +1,51 @@
+@import url('https://fonts-googleapis.com/css2?family=Al');
+@import url('https://fonts-google.com/specimen/Lobster');
+
+html{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(44, 62, 80 );
+    color: #D0ECE7 ;
+    text-align: center;
+}
+.logo{
+    margin-top: 30%;
+    font-size:30px;
+    font-weight: normal;
+
+}
+.brackets{
+    font-family: sans-serif;
+}
+.left{
+    color: #D4E6F1 ;
+}
+.rigth{
+    color: #D4E6F1 ;
+    
+}
+.sample{
+    padding: 20px;
+    font-size: 18px;
+    background: inherit;
+    color: inherit;
+}
+
+#button{
+    margin-top: 10px;
+    background-color: #D4E6F1 ;
+    color: white;
+    width: 80%;
+    height: 60px;
+    font-size: 20px;
+    outline: none;
+    border: 5px solid #95A5A6  ;
+    border-radius: 5px;
+
+}
+#button.active{
+    transform: scale(0.95);
+
+
+}
